@@ -1,54 +1,161 @@
 .hero-section {
-    position: relative;
-    height: 600px;
-    width: 100%;
-    /* background-image: url('../assets/hero-bg.jpg'); */
-    background-size: cover;
-    background-position: center;
-  }
-  
+  position: relative;
+  min-height: 800px; /* Increased height */
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay {
+  /* position: absolute; */
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 48px;
+}
+
+.container {
+  max-width: 1200px;
+  max-height: 800px; /* Increased height */
+  margin: 150px auto; /* Increased margin to push content down */
+}
+
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 32px;
+}
+
+.info-box {
+  background-color: white;
+  padding: 24px;
+  margin-bottom: 32px;
+  border-radius: 8px;
+}
+
+.info-box p {
+  margin-bottom: 16px;
+}
+
+.highlight {
+  color: #dc2626;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.fleet-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.fleet-list-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.download-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.download-icon {
+  margin-right: 8px;
+}
+
+.filter-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  height:'100%';
+  margin-bottom: 32px;
+}
+
+.vessel-filter {
+  max-width: 200px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.country-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.country-filter {
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.country-filter.active {
+  background-color: black;
+  color: white;
+}
+
+.ship-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.ship-card {
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.ship-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ship-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.ship-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.ship-country {
+  font-size: 14px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
   .hero-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    display: flex;
+    padding: 24px;
+  }
+
+  .hero-title {
+    font-size: 28px;
+  }
+
+  .fleet-list-header {
     flex-direction: column;
-    justify-content: flex-end;
-    padding-bottom: 40px;
+    align-items: flex-start;
+    gap: 16px;
   }
-  
-  .hero-overlay h1 {
-    color: white;
-    font-size: 48px;
-    font-weight: bold;
-    text-align: left;
-    margin: 0 0 20px 80px;
-    max-width: 800px;
+
+  .ship-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
-  
-  .info-box {
-    background: white;
-    margin-left: 80px;
-    padding: 20px;
-    max-width: 800px;
-  }
-  
-  .info-box p {
-    color: #333;
-    font-size: 16px;
-    line-height: 1.5;
-    margin: 0;
-  }
-  
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .hero-overlay h1 {
-      font-size: 32px;
-      margin-left: 20px;
-    }
-  
-    .info-box {
-      margin-left: 20px;
-      margin-right: 20px;
-    }
-  }
+}
