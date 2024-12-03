@@ -1,0 +1,203 @@
+.services-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    height: 80vh;
+    /* background-image: url('/path-to-your-ship-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0;
+  }
+  
+  .hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+ 
+    padding:  2rem;
+  }
+  
+  .hero-section h1 {
+    color: white;
+    font-size: 3.5rem;
+    margin-top:50px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .info-box {
+    background-color: #00A7E1;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    margin: 0;
+  }
+  
+  .info-box .main-description,
+  .info-box .secondary-description {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  .service-indicators {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .indicator {
+    width: 200px;
+    height: 8px;
+  }
+  
+  .indicator.blue { background-color: #00A7E1; }
+  .indicator.green { background-color: #7AB800; }
+  .indicator.black { background-color: #000000; }
+  
+  /* Bunkering Section */
+  .bunkering-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .bunkering-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .bunkering-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #00A7E1;
+  }
+  
+  .bunkering-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Transportation Section */
+  .transportation-section {
+    position: relative;
+    min-height: 60vh;
+    /* background-image: url('/path-to-your-transport-image.jpg'); */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .transportation-section .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 4rem 2rem;
+  }
+  
+  .transportation-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    position: relative;
+  }
+  
+  .transportation-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: white;
+  }
+  
+  .transportation-section h3 {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Fleet Management Section */
+  .fleet-section {
+    padding: 4rem 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .fleet-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .fleet-section h2::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background-color: #00A7E1;
+  }
+  
+  .fleet-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .info-box {
+      margin: 1rem 0;
+      padding: 1.5rem;
+    }
+  
+    .main-description {
+      font-size: 1.1rem;
+    }
+  
+    .service-indicators {
+      flex-wrap: wrap;
+    }
+  
+    .indicator {
+      width: 100px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section h1 {
+      font-size: 2rem;
+    }
+  
+    .transportation-section h2,
+    .bunkering-section h2,
+    .fleet-section h2 {
+      font-size: 1.75rem;
+    }
+  
+    .transportation-section h3,
+    .bunkering-section h3,
+    .fleet-section h3 {
+      font-size: 1.25rem;
+    }
+  }
+  
+  
