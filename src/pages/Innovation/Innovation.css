@@ -1,0 +1,218 @@
+.innovation-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+  
+  /* Common Section Styles */
+  section {
+    padding: 4rem 0;
+  }
+  
+  .section-gray {
+    background-color: #f5f5f5;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  /* Mass Flow Intro Section */
+  .mass-flow-intro {
+    padding: 3rem 0;
+  }
+  
+  /* Telemetry Section */
+  .telemetry-section {
+    background-color: white;
+  }
+  
+  .feature-tag {
+    display: inline-block;
+    background-color: #00A7E1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    margin-top: 1rem;
+  }
+  
+  /* Automooring Section */
+  .automooring-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .ship-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .improvements-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .improvement-card {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .improvement-card .icon {
+    font-size: 2rem;
+    color: #00A7E1;
+    margin-bottom: 1rem;
+  }
+  
+  /* Mass Flow Meter Section */
+  .video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    margin-top: 2rem;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+  
+  /* Partnership Section */
+  .partnership-section {
+    /* background-image: url('/path-to-ship-background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+  }
+  
+  .hero-content {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .info-box {
+    background-color: #7AB800;
+    padding: 2rem 0;
+    color: white;
+  }
+  
+  .cta-box {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    margin-top: 2rem;
+  }
+  
+  .contact-button {
+    background-color: #00A7E1;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-button:hover {
+    background-color: #0086b3;
+  }
+  
+  /* Sustainability Section */
+  .sustainability-section {
+    background-color: #004d40;
+    color: white;
+  }
+  
+  .sustainability-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+  
+  .globe-image {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .value-item {
+    text-align: center;
+  }
+  
+  .value-item .icon {
+    font-size: 2.5rem;
+    color: #7AB800;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .automooring-grid,
+    .sustainability-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .improvements-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.75rem;
+    }
+  
+    h3 {
+      font-size: 1.25rem;
+    }
+  
+    .improvements-grid,
+    .values-grid {
+      grid-template-columns: 1fr;
+    }
+  
+    .content-wrapper {
+      padding: 0 1rem;
+    }
+  }
+  
+  
