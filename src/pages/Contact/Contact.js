@@ -30,16 +30,16 @@ function Contact() {
   }
 
   return (
-    <div className="contact-container">
+    <div className="contact-container-1">
       {/* Core Values Hero Section */}
-      <section className="hero-section">
-        <div className="hero-overlay">
+      <section className="hero-section-2">
+        <div className="hero-overlay-3">
           <h1>Driven by our core values: quality, safety, innovation and sustainability</h1>
           <h2>— Zero spills, no incidents</h2>
         </div>
         
-        <div className="emergency-contact-box">
-          <div className="emergency-contact-content">
+        <div className="emergency-contact-box-4">
+          <div className="emergency-contact-content-5">
             <p>Operations (outside office hours): <strong>+31 6 5356 2532</strong></p>
             <p>Repair & maintenance: <strong>+31 10 4876244</strong></p>
             <p>Emergency Contacts "VT The Netherlands" Location (contact form):</p>

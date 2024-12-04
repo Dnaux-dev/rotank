@@ -254,3 +254,94 @@
   }
   
    */
+
+
+.contact-container-1 {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.hero-section-2 {
+  position: relative;
+  height: 100vh;
+  /* background-color: yellowgreen; */
+  background-image: url('../../../public/assets/pexels-jean-paul-wettstein-677916508-19436828.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 2rem;
+}
+
+.hero-overlay-3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  position: absolute;
+  top: 50%;
+}
+
+.hero-overlay-3 h1 {
+  font-size: 2.0rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-overlay-3 h2 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.emergency-contact-box-4 {
+  background-color: #0077BE;
+  top: 90%;
+  left: 10%;
+  width: 60%;
+  height: 20%;
+  position: absolute;
+  padding: 2rem;
+  margin-top: 2rem;
+  border-radius: 5px;
+  color: white;
+}
+
+.emergency-contact-content-5 {
+  position: absolute;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.emergency-contact-content-5 p {
+  margin: 0.5rem 0;
+}
+
+
+.social-links {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 4rem;
+  top: 40rem;
+  text-align: right;
+  justify-content: center;
+  color: #000;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: -1.5rem;
+  color: #000;
+}
+
+.social-icons a {
+  color: #000;
+  font-size: 2rem;
+}
+
+.social-links h3 {
+  font-size: 1.5rem;
+}
