@@ -1,13 +1,11 @@
-.services-container {
+/* .services-container {
     width: 100%;
     overflow: hidden;
   }
   
-  /* Hero Section */
   .hero-section {
     position: relative;
     height: 80vh;
-    /* background-image: url('/path-to-your-ship-image.jpg'); */
     background-size: cover;
     background-position: center;
     margin-bottom: 0;
@@ -59,8 +57,7 @@
   .indicator.blue { background-color: #00A7E1; }
   .indicator.green { background-color: #7AB800; }
   .indicator.black { background-color: #000000; }
-  
-  /* Bunkering Section */
+
   .bunkering-section {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -88,11 +85,10 @@
     margin-bottom: 1rem;
   }
   
-  /* Transportation Section */
+
   .transportation-section {
     position: relative;
     min-height: 60vh;
-    /* background-image: url('/path-to-your-transport-image.jpg'); */
     background-size: cover;
     background-position: center;
   }
@@ -130,7 +126,6 @@
     margin-bottom: 1rem;
   }
   
-  /* Fleet Management Section */
   .fleet-section {
     padding: 4rem 2rem;
     max-width: 1200px;
@@ -158,7 +153,6 @@
     margin-bottom: 1rem;
   }
   
-  /* Responsive Design */
   @media (max-width: 768px) {
     .hero-section h1 {
       font-size: 2.5rem;
@@ -200,4 +194,4 @@
     }
   }
   
-  
+   */

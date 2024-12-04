@@ -1,4 +1,4 @@
-.innovation-container {
+/* .innovation-container {
     width: 100%;
     overflow: hidden;
   }
@@ -9,7 +9,6 @@
     padding: 0 2rem;
   }
   
-  /* Common Section Styles */
   section {
     padding: 4rem 0;
   }
@@ -34,12 +33,10 @@
     line-height: 1.6;
   }
   
-  /* Mass Flow Intro Section */
   .mass-flow-intro {
     padding: 3rem 0;
   }
   
-  /* Telemetry Section */
   .telemetry-section {
     background-color: white;
   }
@@ -53,7 +50,6 @@
     margin-top: 1rem;
   }
   
-  /* Automooring Section */
   .automooring-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -88,7 +84,7 @@
     margin-bottom: 1rem;
   }
   
-  /* Mass Flow Meter Section */
+
   .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -106,9 +102,7 @@
     border: 0;
   }
   
-  /* Partnership Section */
   .partnership-section {
-    /* background-image: url('/path-to-ship-background.jpg'); */
     background-size: cover;
     background-position: center;
     color: white;
@@ -149,7 +143,7 @@
     background-color: #0086b3;
   }
   
-  /* Sustainability Section */
+
   .sustainability-section {
     background-color: #004d40;
     color: white;
@@ -184,7 +178,6 @@
     margin-bottom: 0.5rem;
   }
   
-  /* Responsive Design */
   @media (max-width: 1024px) {
     .automooring-grid,
     .sustainability-grid {
@@ -215,4 +208,4 @@
     }
   }
   
-  
+   */

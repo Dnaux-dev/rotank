@@ -41,7 +41,7 @@ class Home extends React.Component {
     });
 
     return (
-      <div className="hero-section">
+      <><div className="hero-section">
         <div className="hero-overlay">
           <div className="container">
             <h1 className="hero-title">
@@ -71,11 +71,12 @@ class Home extends React.Component {
           </div>
         </div>
       </div>
-      <Section />
-    </div>
+      </>
+    // </div>
 
   )
 }
 
-export default Home
+}
 
+export default Home;

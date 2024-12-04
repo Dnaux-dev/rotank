@@ -1,12 +1,10 @@
-.hero-section {
+/* .hero-section {
     position: relative;
     height: 100vh;
     width: 100%;
-     /* background-image: url('./assets/about hero.jpg');  */
      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP838zjV75banvrx8dWcKLxOFU25dvthV0wJbKA0YjN6n4oMvaANoCDRItsR6l-JPjmm4&usqp=CAU');
     background-size: cover;
     background-position: center;
-    /* test*/
     background-color: blue;
     margin-bottom: 40%;
   }
@@ -127,6 +125,7 @@
    .container:nth-child(4)::before {
     background-color: #000;
   }
+  
 
 
 
@@ -138,7 +137,7 @@
 
 
   
-  /* Responsive adjustments */
+
   @media (max-width: 768px) {
     .hero-overlay h1 {
       font-size: 32px;
@@ -149,4 +148,4 @@
       margin-left: 20px;
       margin-right: 20px;
     }
-  }  
+  }   */

@@ -1,14 +1,12 @@
-.contact-container {
+/* .contact-container {
     width: 100%;
     max-width: 100%;
     overflow: hidden;
   }
   
-  /* Hero Section */
   .hero-section {
     position: relative;
-    height: 60vh;
-    /* background-image: url('/path-to-ship-image.jpg'); */
+
     background-size: cover;
     background-position: center;
     color: white;
@@ -42,6 +40,8 @@
   }
   
   .emergency-contact-content {
+    position: absolute;
+    top: -80%;
     max-width: 1200px;
     margin: 0 auto;
   }
@@ -68,7 +68,7 @@
     font-size: 1.5rem;
   }
   
-  /* Contact Content */
+
   .contact-content {
     max-width: 1200px;
     margin: 0 auto;
@@ -78,7 +78,6 @@
     gap: 4rem;
   }
   
-  /* Form Section */
   .form-section h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -140,7 +139,7 @@
     background-color: #005c91;
   }
   
-  /* Locations Section */
+
   .locations-section {
     display: grid;
     gap: 2rem;
@@ -177,7 +176,7 @@
     color: #0077BE;
   }
   
-  /* Map Section */
+
   .map-section {
     padding: 4rem 2rem;
     background-color: #f5f5f5;
@@ -208,7 +207,7 @@
     overflow: hidden;
   }
   
-  /* Responsive Design */
+
   @media (max-width: 1024px) {
     .contact-content {
       grid-template-columns: 1fr;
@@ -254,4 +253,4 @@
     }
   }
   
-  
+   */
