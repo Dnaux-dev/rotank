@@ -113,9 +113,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.95);
+    background: #fff;
+    color:#000;
     display: none;
     padding: 2rem;
+  }
+
+  .mobile-menu .mobile-nav-link{
+    color:#000;
+  }
+
+  .close-menu{
+    color:#000;
   }
   
   .mobile-menu.active {
@@ -132,7 +141,7 @@
   .close-menu {
     background: none;
     border: none;
-    color: white;
+    color: #000;
     font-size: 1.5rem;
     cursor: pointer;
   }

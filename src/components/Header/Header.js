@@ -65,7 +65,7 @@ function Header() {
       <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
         <div className="mobile-menu-header">
           <a href="/" className="logo">
-            <img src="/assets/logo.png" alt="Company Logo" className="logo-image" />
+          <img src="/assets/logo.png" alt="Company Logo" className="logo-image" width={150} height={120} />
           </a>
           <button className="close-menu" onClick={toggleMenu}>✕</button>
         </div>
