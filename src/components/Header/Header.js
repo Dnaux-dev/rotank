@@ -1,10 +1,11 @@
-import React, { useState , useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import './Header.css';
 
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isLanguageOpen, setIsLanguageOpen] = useState(false);
   const [currentLanguage, setCurrentLanguage] = useState('English');
+  const [isScrolled, setIsScrolled] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -19,6 +20,15 @@ function Header() {
     setCurrentLanguage(language);
     setIsLanguageOpen(false);
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 0);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   // sticky code line
   const Header = () => {
@@ -47,17 +57,19 @@ function Header() {
 
 // end of sticky codeline
   return (
-    <header className="header">
+    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <div className="header-container">
-        <a href="/" className="logo">Rottank</a>
-        
+        <a href="/" className="logo">
+          <img src="/assets/logo.png" alt="Company Logo" className="logo-image" width={150} height={120} />
+        </a>
+
         <nav className="nav-menu">
           <a href="/" className="nav-link">HOME</a>
           <a href="/about" className="nav-link">ABOUT</a>
           <a href="/innovation" className="nav-link">INNOVATION</a>
           <a href="/services" className="nav-link">SERVICES</a>
           <a href="/contact" className="nav-link">CONTACT</a>
-          
+
           <div style={{ position: 'relative' }}>
             <button className="language-selector" onClick={toggleLanguage}>
               <img src="/placeholder.svg?height=20&width=20" alt="Language" />
@@ -78,10 +90,12 @@ function Header() {
 
       <div className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
         <div className="mobile-menu-header">
-          <a href="/" className="logo" style={{ color: 'white' }}>Rottank</a>
+          <a href="/" className="logo">
+          <img src="/assets/logo.png" alt="Company Logo" className="logo-image" width={150} height={120} />
+          </a>
           <button className="close-menu" onClick={toggleMenu}>✕</button>
         </div>
-        
+
         <nav>
           <a href="/" className="mobile-nav-link">Home</a>
           <a href="/about" className="mobile-nav-link">About</a>
@@ -93,10 +107,6 @@ function Header() {
             {currentLanguage}
           </div>
         </nav>
-
-        <div className="search-container">
-          <input type="text" className="search-input" placeholder="Search" />
-        </div>
       </div>
       
     </header>

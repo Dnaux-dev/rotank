@@ -6,7 +6,9 @@
 .hero-section-service {
   position: relative;
   height: 100vh;
-  background-image: url(../../../public/assets/pexels-janilson-pereira-trarbach-133605888-13527239.jpg);
+
+  background-image: url("../../../public/assets/pic-5.jpg");
+
   background-size: cover;
   background-position: center;
   margin-bottom: 0;
@@ -106,7 +108,9 @@
 }
 
 .transportation-section {
-  background: url(../../../public/assets/pexels-julien-goettelmann-44396125-28966482.jpg);
+  /* background: url(../../../public/assets/pexels-julien-goettelmann-44396125-28966482.jpg); */
+  background: url("../../../public/assets/pic-6.jpg");
+
   background-size: cover;
   background-position: center center;
   height: 70vh;
@@ -375,4 +379,3 @@ ul li span {
   }
   
 }
-

@@ -218,7 +218,7 @@
   }
   .innovation-hero-section {
     background-color: #f5f5f5;
-    background-image: url(../../../public/assets/pexels-jakub-pabis-147246622-15970028.jpg);
+    background-image: url("../../../public/assets/pic-8.jpg");
    position: relative;
     background-size: cover;
   background-position: center;
@@ -384,7 +384,7 @@
   }
   
   .background-attachment{
-    background: url(../../../public/assets/pexels-joao-vitor-heinrichs-862489-1856183.jpg);
+    background: url(../../../public/assets/pic-9.jpg);
   background-size: cover;
   background-position: center center;
   height: 80vh;
@@ -652,7 +652,7 @@ ul li span {
 }
 
 .innovative-sustainability-section{
-  background-image: url(../../../public/assets/pexels-kristina-chuprina-132621985-13283557.jpg);
+  background-image: url(../../../public/assets/pic-4.jpg);
   background-size: cover;
   background-position: center center;
   height: 100vh;
