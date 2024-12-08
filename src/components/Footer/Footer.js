@@ -40,7 +40,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className="footer-section">
+        {/* <div className="footer-section">
           <h3>FOLLOW US</h3>
           <div className="social-links">
             <a href="#" target="_blank" rel="noopener noreferrer">
@@ -54,7 +54,7 @@ function Footer() {
             <h3>MEMBERS OF</h3>
             <img src="/placeholder.svg?height=60&width=120" alt="IBIA Logo" />
           </div>
-        </div>
+        </div> */}
       </div>
 
       <nav className="footer-nav">
@@ -67,19 +67,19 @@ function Footer() {
         </div>
         <div className="language-links">
           <a href="#" className="lang-link">
-            <img src="/placeholder.svg?height=20&width=20" alt="Nederlands flag" />
-            Nederlands
+            <img src="/assets/Netherland.jpg" alt="Nederlands flag" />
+            Netherlands
           </a>
           <a href="#" className="lang-link">
-            <img src="/placeholder.svg?height=20&width=20" alt="English flag" />
+            <img src="/assets/English.jpg" alt="English flag" />
             English
           </a>
           <a href="#" className="lang-link">
-            <img src="/placeholder.svg?height=20&width=20" alt="Deutsch flag" />
+            <img src="/assets/Deutsch.jpg" alt="Deutsch flag" />
             Deutsch
           </a>
           <a href="#" className="lang-link">
-            <img src="/placeholder.svg?height=20&width=20" alt="Español flag" />
+            <img src="/assets/spain.jpg" alt="Español flag" />
             Español
           </a>
         </div>
