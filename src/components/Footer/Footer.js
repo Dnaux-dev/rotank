@@ -87,7 +87,7 @@ function Footer() {
 
       <div className="footer-bottom">
         <p>Copyright © 2024 Rottank Group. All Rights Reserved.</p>
-        <p>Design and developed by <a href="#">Dnaux-dev</a></p>
+        <p>Design and developed by <a href="#">Emperooid & Daux </a></p>
       </div>
     </footer>
   )

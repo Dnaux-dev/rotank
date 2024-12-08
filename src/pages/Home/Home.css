@@ -8,8 +8,10 @@
   position: relative;
   background-size: cover;
   background-position: center;
+  
     /* background-image: url('/path-to-ship-image.jpg'); */
     /* background-image:   url('C:\Users\User\Desktop\newest clone for rot\rotank\public\asset\pexels-jean-paul-wettstein-677916508-19436828.jpg'); */
+    background-image: url(../../../public/assets/12481538_1920_1080_30fps.mp4);
 }
 
 .fleet {
