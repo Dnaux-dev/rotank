@@ -27,16 +27,16 @@ function Footer() {
         <div className="footer-section">
           <h3>CERTIFIED</h3>
           <div className="certificates">
-            <img src="/placeholder.svg?height=100&width=100" alt="LRQA ISO 9001:2015 Certified" />
-            <img src="/placeholder.svg?height=100&width=100" alt="LRQA ISO 14001:2015 Certified" />
+            <img src="/assets/9001.jpg" alt="LRQA ISO 9001:2015 Certified" />
+            <img src="/assets/14001.jpg" alt="LRQA ISO 14001:2015 Certified" />
           </div>
         </div>
 
         <div className="footer-section">
           <h3>FOR PANAMA / SPAIN:</h3>
           <div className="certificates">
-            <img src="/placeholder.svg?height=100&width=200" alt="Bureau Veritas ISO 9001 Certification" />
-            <img src="/placeholder.svg?height=100&width=200" alt="Bureau Veritas ISO 14001 Certification" />
+            <img src="/assets/b9001.jpg" alt="Bureau Veritas ISO 9001 Certification" />
+            <img src="/assets/b14001.jpg" alt="Bureau Veritas ISO 14001 Certification" />
           </div>
         </div>
 
