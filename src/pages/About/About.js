@@ -1,77 +1,94 @@
-import React from "react";
-import "./About.css";
+import React from 'react';
+import './About.css';
 
-function About() {
+const About = () => {
   return (
-    <div className="hero-section">
-      <div className="hero-overlay">
-        <h2>Rottank operates a modern fleet of around 50 unique vessels</h2>
-        <div className="info-box">
-          <h3>
-            VT is an independent company with committed employees. Many have
-            been living a maritime existence from generation to generation.
-          </h3>
+    <div className="about-container">
+      {/* Hero Section */}
+      <section className="hero-section">
+        
+        <div className="hero-text">
+          <h1>
+            VT is a reliable, independent tanker shipping company with a global presence
+          </h1>
+        </div>
+        <div className="blue-box">
           <p>
-            Rottank has an ultramodern fleet of more than 30 unique ships.
-            Varying from 210 MT (MTS Velden) to 13500 MT (MTS Vorstenbosch |
-            Largest inland tanker in the World)kkkdld
+            VT is an independent company with committed employees. Many have been
+            living a maritime existence from generation to generation.
+          </p>
+          <p>
+            Through innovative and reliable services, VT offers optimal support
+            for transport and bunkering with highly trained personnel and impeccable equipment. VT is mainly active in European waters (ARA area, all Rhine river states and Sweden) and also has operations in Panama, Spain, and Oman.
           </p>
         </div>
-      </div>
-      <div class="container">
-        <div class="core-values">
-          <h1>Core Values</h1>
-          <p>
-            VT is a reliable, independent tanker shipping company that operates
-            worldwide in both inland and sea shipping while striving for and
-            maintaining the following values:
-          </p>
-          <div class="values-grid">
-            <div class="value-card">
-              <img src="integrity-icon.png" alt="Integrity" />
-              <h2>Integrity</h2>
-              <p>
-                Ensuring the continuous development of our employees to support
-                the company's safety and continuity.
-              </p>
-            </div>
-            <div class="value-card">
-              <img src="innovation-icon.png" alt="Innovation" />
-              <h2>Innovation</h2>
-              <p>
-                Providing innovative solutions for current and future customer
-                needs.
-              </p>
-            </div>
-            <div class="value-card">
-              <img src="independence-icon.png" alt="Independence" />
-              <h2>Independence</h2>
-              <p>
-                Maintaining operational autonomy in delivering high-quality
-                services.
-              </p>
-            </div>
-            <div class="value-card">
-              <img src="safety-icon.png" alt="Safety" />
-              <h2>Safety</h2>
-              <p>
-                Prioritizing the safety of our employees, assets, and
-                operations.
-              </p>
-            </div>
-            <div class="value-card">
-              <img src="sustainability-icon.png" alt="Sustainability" />
-              <h2>Sustainability</h2>
-              <p>
-                Ensuring sustainable practices to protect the environment and
-                communities.
-              </p>
-            </div>
+      </section>
+
+      {/* Core Values Section */}
+      <section className="core-values">
+        <h2>Core Values</h2>
+        <div className="values">
+          <div className="value">
+            <h3>Integrity</h3>
+            <p>
+              Ensuring the continuous development of our employees so that they
+              are committed to the development of the company, its general
+              safety and its continuity.
+            </p>
+          </div>
+          <div className="value">
+            <h3>Innovation</h3>
+            <p>
+              Providing innovative solutions for the wishes and needs of our
+              current and future customers, for now and for the longer term,
+              whereby a long-term professional cooperation is of paramount
+              importance to us.
+            </p>
+          </div>
+          <div className="value">
+            <h3>Independence</h3>
+            <p>
+              Holding safety as an absolute priority on board, in the office and
+              while carrying out our core activities.
+            </p>
+          </div>
+          <div className="value">
+            <h3>Safety</h3>
+            <p>
+              Operating on the basis of integrity, respect, and security with a
+              focus on long-term relationships.
+            </p>
+          </div>
+          <div className="value">
+            <h3>Sustainability</h3>
+            <p>
+              Remaining an industry leader in the field of quality and
+              sustainability in the performance of our work.
+            </p>
           </div>
         </div>
-      </div>
+      </section>
+
+      {/* Partners Section */}
+      {/* <section className="partners-section">
+        <h2>Our Partners</h2>
+        <div className="partners-carousel">
+          <img
+            src="/path/to/partner1.png" // Replace with the actual image path
+            alt="Partner 1"
+          />
+          <img
+            src="/path/to/partner2.png" // Replace with the actual image path
+            alt="Partner 2"
+          />
+          <img
+            src="/path/to/partner3.png" // Replace with the actual image path
+            alt="Partner 3"
+          />
+        </div>
+      </section> */}
     </div>
   );
-}
+};
 
 export default About;

@@ -33,4 +33,3 @@ function Sustainability() {
 }
 
 export default Sustainability;
-

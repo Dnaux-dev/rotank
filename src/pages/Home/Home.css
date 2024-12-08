@@ -39,15 +39,10 @@
   padding: 48px;
   background-size: cover;
   background-position: center;
-<<<<<<< HEAD
-  
-    /* background-image: url('/path-to-ship-image.jpg'); */
-    /* background-image:   url('C:\Users\User\Desktop\newest clone for rot\rotank\public\asset\pexels-jean-paul-wettstein-677916508-19436828.jpg'); */
-    background-image: url(../../../public/assets/12481538_1920_1080_30fps.mp4);
-=======
+
   position: relative;
   transition: background-image 1s ease-in-out;
->>>>>>> 733f648ec336a8dec5aafa351d01e82f04673d6c
+
 }
 
 .hero-section::before {

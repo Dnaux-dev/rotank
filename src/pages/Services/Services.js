@@ -39,7 +39,7 @@ function Services() {
       <section className="bunkering-section">
         <h2>Bunkering</h2>
         <h3>
-          VT has traditionally been one of the largest players in bunkering.
+          Rottank has traditionally been one of the largest players in bunkering.
         </h3>
         <p>
           We have been supplying large seagoing vessels with various fuels and
@@ -80,7 +80,7 @@ function Services() {
       <section className="fleet-section">
         <h2>Fleet management</h2>
         <h3>
-          VT has many years of experience with fleet management for ship owners
+          Rottank has many years of experience with fleet management for ship owners
           or other third parties.
         </h3>
         <p>

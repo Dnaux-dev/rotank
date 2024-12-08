@@ -14,7 +14,7 @@ function Innovation() {
       <section className="innovation-hero-section">
         <div className="innovation-hero-content">
           <h1>
-            Rottank develops innovative and advanced applications wit clients
+            Rottank develops innovative and advanced applications with clients
             and partners
           </h1>
         </div>
@@ -22,7 +22,7 @@ function Innovation() {
           <div className="innovation-content-5">
             <h3>
               In addition to building ships with the latest technical solutions,
-              VT regularly develops and devises advanced and innovative
+              Rottank regularly develops and devises advanced and innovative
               applications in cooperation with its customers and partners.
             </h3>
             <p>
@@ -45,7 +45,7 @@ function Innovation() {
         <div className="innovative-contact">
           <h3>
             Would you like to know more about the possibilities and solutions
-            that VT can offer you?
+            that Rottank can offer you?
           </h3>
           <div className="innovative-icons">
             <a href="#"> contact us </a>
@@ -58,27 +58,10 @@ function Innovation() {
         <div className="indicator green"></div>
         <div className="indicator black"></div>
       </div>
-      <div className="background-attachment"></div>
+      <div className="background-attachment background"></div>
 
       <div className="innovation-info-box"></div>
-      {/* Mass Flow System Section */}
-      {/* <section className="mass-flow-intro section-gray">
-    
-      <div className="content-wrapper">
-      <h2>VT's MTS Vlaardingen was the first ship in the world with a certified mass flow system on board (2010).</h2>
-        <p>
-          Since then there have been many developments and VT has introduced the system on other vessels. VT
-          has a co-operation with the two leading companies in the field of Coriolis Mass Flow
-          Systems; Emerson Process Management and Endress+Hauser for this technology.
-        </p>
-        <p>
-          The Dutch Metrology Institute (NMI), has independently certified and sealed these on-board systems to
-          guarantee an accurate, reliable system based on the global measurement standards OIML R117 and
-          MID Europe. This also ensures compliance with European legislation on transfer of ownership (custody
-          transfer)
-        </p>
-      </div>
-    </section> */}
+  
       <div className="blur"></div>
 
       {/* Innodox Automooring Section */}
@@ -94,7 +77,7 @@ function Innovation() {
               </h3>
               <p>
                 The risks associated with mooring are overcome by a well-trained
-                crew and closely monitored procedures, but VT has also focused
+                crew and closely monitored procedures, but Rottank has also focused
                 on eliminating the use of mooring lines. Without mooring lines,
                 there is no longer a physical need for a crew member to moor and
                 the greatest safety risk is removed.
@@ -186,15 +169,15 @@ function Innovation() {
       <section className="innovation-partnership-section">
         <div className="innovation-partnership-content">
           <h2>
-            VT develops innovative and advanced applications with clients and
+          Rottank develops innovative and advanced applications with clients and
             partners.
           </h2>
         </div>
         <div className="innovative-info-box">
           <div className="innovative-info-content-wrapper">
             <p>
-              Since then there have been many developments and VT has introduced
-              the system on other vessels. VT has a co-operation with the two
+              Since then there have been many developments and Rottank has introduced
+              the system on other vessels. Rottank has a co-operation with the two
               leading companies in the field of Coriolis Mass Flow Systems;
               Emerson Process Management and Endress+Hauser for this technology.
             </p>
@@ -214,7 +197,7 @@ function Innovation() {
         
           <h2>Telemetry</h2>
           <p>
-            The new generation of VT ships has telemetry points, making it
+            The new generation of Rottank ships has telemetry points, making it
             possible to monitor the entire ship online and even steer it in case
             of an emergency. The crew can fully control and monitor the ship
             from the wheelhouse, which can greatly improve safety.
@@ -271,7 +254,7 @@ function Innovation() {
             <div className="sustainability-text-content">
               <h2>Sustainable & responsible</h2>
               <p>
-                VT Group values safety and sustainability with great importance.
+              Rottank values safety and sustainability with great importance.
                 Our internal safety procedures and systems are based on our
                 "zero spills – no incidents" objectives. Because we are
                 accredited and certified according to the highest quality
@@ -282,7 +265,7 @@ function Innovation() {
         
             <div className="sustainability-text-content">
               <p>
-                The VT Group has also set itself the goal of being at the
+                Rottank has also set itself the goal of being at the
                 forefront of the energy transition for shipping, with a focus on
                 the switch from fossil fuels to biofuels, with the wish to
                 contribute to the reduction of CO2 emissions.

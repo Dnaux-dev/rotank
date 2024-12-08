@@ -5,7 +5,7 @@ const slides = [
   {
     title: "ZERO SPILLS | NO INCIDENTS",
     subtitle: "RESPECTED INLAND TANKER OPERATOR",
-    image: "https://images.unsplash.com/photo-1574610758891-5b809b6e6e2e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1920&q=80"
+    image: "/public/assets/petroleum-gas-container-ship-oil-refinery-background-energy-nautical-transportation.jpg"
   },
   {
     title: "GLOBAL MARITIME EXCELLENCE",

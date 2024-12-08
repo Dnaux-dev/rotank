@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState , useEffect} from 'react'
 import './Header.css';
 
 function Header() {
@@ -20,6 +20,32 @@ function Header() {
     setIsLanguageOpen(false);
   };
 
+  // sticky code line
+  const Header = () => {
+    const [isSticky, setIsSticky] = useState(false);
+
+    useEffect(() => {
+      const handleScroll = () => {
+        if (window.scrollY > 50) {
+          setIsSticky(true);
+        } else {
+          setIsSticky(false);
+        }
+      };
+      window.addEventListener('scroll', handleScroll);
+      return () => {
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }, []);
+    return (
+      <header className={`header ${isSticky ? 'sticky' : ''}`}>
+         <nav className="nav-menu"></nav>
+      </header>
+    );
+    };
+    
+
+// end of sticky codeline
   return (
     <header className="header">
       <div className="header-container">
@@ -72,6 +98,7 @@ function Header() {
           <input type="text" className="search-input" placeholder="Search" />
         </div>
       </div>
+      
     </header>
   );
 }
