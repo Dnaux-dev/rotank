@@ -72,14 +72,14 @@ function Header() {
 
           <div style={{ position: 'relative' }}>
             <button className="language-selector" onClick={toggleLanguage}>
-              <img src="/placeholder.svg?height=20&width=20" alt="Language" />
+              <img src="/assets/English.jpg" alt="Language" />
               {currentLanguage}
             </button>
-            <div className={`language-dropdown ${isLanguageOpen ? 'active' : ''}`}>
+            {/* <div className={`language-dropdown ${isLanguageOpen ? 'active' : ''}`}>
               <div className="language-option" onClick={() => changeLanguage('English')}>English</div>
               <div className="language-option" onClick={() => changeLanguage('Deutsch')}>Deutsch</div>
               <div className="language-option" onClick={() => changeLanguage('Français')}>Français</div>
-            </div>
+            </div> */}
           </div>
         </nav>
 

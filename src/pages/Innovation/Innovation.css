@@ -384,7 +384,7 @@
   }
   
   .background-attachment{
-    background: url(../../../public/assets/pic-9.jpg);
+    background: url("../../../public/assets/pic-9.jpg");
   background-size: cover;
   background-position: center center;
   height: 80vh;
