@@ -40,9 +40,10 @@ function Contact() {
         
         <div className="emergency-contact-box-4">
           <div className="emergency-contact-content-5">
-            <p>Operations (outside office hours): <strong>+31 6 5356 2532</strong></p>
-            <p>Repair & maintenance: <strong>+31 10 4876244</strong></p>
-            <p>Emergency Contacts "VT The Netherlands" Location (contact form):</p>
+            <p>Operations (outside office hours): <strong>+31 97 005 033 770</strong></p>
+            <p>Repair & maintenance: <strong>+31 97 005 033 770</strong></p>
+            <p>Emergency Contacts "Rottank logistics and Storage Netherlands" Location (contact form):
+            </p>
           </div>
         </div>
 
@@ -146,10 +147,12 @@ function Contact() {
         <section className="locations-section">
           <div className="location-card">
             <h3>NETHERLANDS</h3>
-            <p>Nijmegenstraat 1, 3087 CD</p>
+            <p>
+            Haarlemmerweg 331, 1051 LG Amsterdam, Netherlands
+            </p>
             <p>Rotterdam</p>
-            {/* <p><Phone className="icon" /> +31 (0) 10 487 62 00</p>
-            <p><Mail className="icon" /> <a href="mailto:info@vtgroup.nl">info@vtgroup.nl</a></p> */}
+            <p>+31 (97) 005 033 770 </p>
+            <p> <a href="mailto:info@vtgroup.nl">info@group.nl</a></p>
           </div>
 
           <div className="location-card">
@@ -157,8 +160,8 @@ function Contact() {
             <p>Edificio Torres de Hércules. Planta 12. Torre B.</p>
             <p>Parque Empresarial y Tecnológico Las Marismas de Palmones.</p>
             <p>11379, T.M Los Barrios (Cádiz).</p>
-            {/* <p><Phone className="icon" /> +34 856 14 70 20</p>
-            <p><Mail className="icon" /> <a href="mailto:info.spain@vtshipping.com">info.spain@vtshipping.com</a></p> */}
+            <p> +31 (97) 005 033 77</p>
+            <p> <a href="mailto:info.spain@vtshipping.com">info.spain@vtshipping.com</a></p>
           </div>
 
           <div className="location-card">
@@ -166,15 +169,15 @@ function Contact() {
             <p>c/Profesor Lozano, 36 – 2º dcha.</p>
             <p>Urb.Industrial El Sebadal</p>
             <p>35008 Las Palma de Gran Canaria</p>
-            <p>Tel: +34 828 681 080</p>
+            <p>Tel: +31 (97) 005 033 77</p>
           </div>
 
           <div className="location-card">
             <h3>PANAMA</h3>
             <p>P.H. Balboa Point, Avenida Balboa y Calle 40</p>
             <p>Ciudad de Panama</p>
-            {/* <p><Phone className="icon" /> +507 225-9271</p>
-            <p><Mail className="icon" /> <a href="mailto:info@vtshipping.com">info@vtshipping.com</a></p> */}
+            <p> +31 (97) 005 033 77</p>
+            <p> <a href="mailto:info@vtshipping.com">info@vtshipping.com</a></p>
           </div>
         </section>
       </div>

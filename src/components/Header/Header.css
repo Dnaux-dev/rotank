@@ -16,6 +16,15 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  .header.scrolled {
+    background: #fff;
+    color: #000;
+  }
+
+  .header.scrolled .nav-link{
+    color: #000;
+  }
   
   .logo {
     font-size: 1.5rem;
