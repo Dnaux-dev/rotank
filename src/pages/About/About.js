@@ -69,24 +69,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* Partners Section */}
-      {/* <section className="partners-section">
-        <h2>Our Partners</h2>
-        <div className="partners-carousel">
-          <img
-            src="/path/to/partner1.png" // Replace with the actual image path
-            alt="Partner 1"
-          />
-          <img
-            src="/path/to/partner2.png" // Replace with the actual image path
-            alt="Partner 2"
-          />
-          <img
-            src="/path/to/partner3.png" // Replace with the actual image path
-            alt="Partner 3"
-          />
-        </div>
-      </section> */}
+      
     </div>
   );
 };
