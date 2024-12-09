@@ -6,12 +6,12 @@ function GlobalMaritime() {
     <section className="global-maritime">
       <div className="container">
         <div className="content">
-          <h2>Global Maritime Logistic Services</h2>
-          <p>Veronica Tankers(VT) has always been a respected and well-known inland tanker operator ever since its foundation in 1916.</p>
-          <p>VT Group today has built on a proven track record of more than 100 years experience in the maritime logistics and bunkering industry, steadily growing into a global leader.</p>
-          <p>Since 2000, VT has been active in Panama under the flag of VT Shipping and with the acquisition of Ridout Tankers in 2020, the VT Group has grown into a large international shipowner with operations in the USA region, Panama, Greek, Sweden, Spain, the Canary Islands and in the river Rhine.</p>
+          <h2>Rotank Logistic Services</h2>
+          <p>Rotank has always been a respected and well-known inland tanker operator ever since its foundation in 1916.</p>
+          <p>Rotank today has built on a proven track record of more than 100 years experience in the maritime logistics and bunkering industry, steadily growing into a global leader.</p>
+          <p>Since 2000, Rotank has been active in Panama under the flag of Rotank Shipping and with the acquisition of Ridout Tankers in 2020, the Rotank Group has grown into a large international shipowner with operations in the USA region, Panama, Greek, Sweden, Spain, the Canary Islands and in the river Rhine.</p>
           <div className="buttons">
-            <button className="btn btn-primary">READ ABOUT VT</button>
+            <button className="btn btn-primary">READ ABOUT Rotank</button>
             <button className="btn btn-secondary">OUR SERVICES</button>
             <button className="btn btn-secondary">WHERE WE OPERATE</button>
           </div>
